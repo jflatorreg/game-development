@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(./imagenes/Fondo_2.jpg);/*Definimos la imagen de fondo de la página*/
+    background-size: 100%;                        /*Tamaño de la imagen*/
+	background-repeat: repeat;                    /*Se repite en toda la pagina*/
+}
+
+.contenedor {                                     /*Se define el contenedor del texto*/  
+	 margin: auto;                                /*Se define las dimensiones del contendor*/ 
+	 max-width: 800px;
+     min-height: 600px;   
+} 
+h2 {                                              /*Se define el texto que va ir en el contenedir*/ 
+	 margin-top: 10px;                            /*Se define el estilo del texto*/  
+     padding-top: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: normal;
+     color: #9addf3;
+	 text-align: justify;
+	 text-shadow: 1px 1px #000000;
+}
+.juegoPhaserH {	                                     /*Se define el contenedor del juegp*/                              
+     box-shadow: 10px 15px 15px 0 rgba(0, 0, 0, 0.4);/*Se define el estilo del texto*/ 
+     margin: auto;                                   /*Define el margen automatico en todos los lados para que se RWD*/
+     width: 90%;
+     max-width: 800px;                               /*Ancho maximo del div*/
+} 
+
